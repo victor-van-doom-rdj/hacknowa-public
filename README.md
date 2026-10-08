@@ -194,7 +194,6 @@ Qrious Code is the cat-shaped launcher in the bottom-right of every page. Ask a 
 | Version | Status | Where to get it |
 |---|---|---|
 | **Qrious Code v1.0** | Live, already in use | Weights hosted separately, not in this repo (see [`.gitignore`](./.gitignore)) · [Hugging Face](https://huggingface.co/sarvan-2187/qrious-code-1.0) |
-| **Qrious Code v2.0** | Training in progress | Coming soon |
 
 ```mermaid
 flowchart LR
@@ -205,7 +204,6 @@ flowchart LR
 
     U["Qrious Code panel"]:::a --> API["FastAPI"]:::b
     API --> M1["Qrious Code v1.0<br/>live · in use"]:::c
-    API -.-> M2["Qrious Code v2.0<br/>training…"]:::d
     M1 --> OUT["Qiskit / OpenQASM<br/>→ applied to your circuit"]:::a
 ```
 
